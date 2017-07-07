@@ -3,7 +3,7 @@
 Process GraphQL requests in Django.
 
 ```python
-from graphqlserver import Query, Mutation
+from graphqlserver import Serializer, Query, Mutation
 from .models import Book
 
 class BookSerializer(Serializer):
